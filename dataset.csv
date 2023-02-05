@@ -1,0 +1,21 @@
+Receive Time,Type,From Zone,To Zone,Source,Source User,NAT DEST IP,NAT SOurce IP,Destination,To Port,Application,Action,Rule,Session End Reason,Bytes,HTTP/2 Connection Session ID
+10/06 21:22:42,end,ostra-ipsec,ostra-ipsec,192.168.255.10,,10.0.1.105,10.200.200.107,10.0.1.105,162,snmp-trap,allow,ocs-ipsec-mgmt,aged-out,1.1k,0
+10/06 21:22:42,end,ostra-ipsec,ostra-ipsec,192.168.255.10,,10.0.1.60,10.200.200.107,10.0.1.60,389,incomplete,allow,ocs-ipsec-mgmt,aged-out,296,0
+10/6/2022 21:22:40,end,trust-lan,untrust,192.168.80.134,,52.112.124.1,65.158.161.156,52.112.124.1,443,ms-teams,allow,outbound-isp,tcp-rst-from-client,8.2k,0
+10/6/2022 21:22:40,end,trust-wifi,untrust,192.168.15.3,,52.96.79.226,65.158.161.156,52.96.79.226,443,outlook-web-online,allow,outbound-isp,tcp-rst-from-client,16.6k,0
+10/6/2022 21:22:40,end,trust-lan,untrust,192.168.80.9,,8.8.8.8,65.158.161.156,8.8.8.8,53,dns-base,allow,outbound-isp,aged-out,225,0
+10/6/2022 21:22:40,end,trust-lan,untrust,192.168.80.20,,52.113.194.132,65.158.161.156,52.113.194.132,443,ssl,allow,outbound-isp,tcp-rst-from-client,11.1k,0
+10/6/2022 21:22:38,end,trust-wifi,untrust,192.168.15.3,,8.8.4.4,65.158.161.156,8.8.4.4,53,dns-base,allow,outbound-isp,aged-out,295,0
+10/6/2022 21:22:38,end,trust-wc,trust-lan,192.168.40.6,,,,192.168.50.4,53,dns-base,allow,trust-trust,aged-out,257,0
+10/6/2022 21:22:38,end,trust-lan,trust-wc,192.168.40.6,,,,192.168.40.6,53,dns-base,allow,trust-trust,aged-out,383,0
+10/6/2022 21:22:38,end,trust-lan,untrust,192.168.81.164,,8.8.8.8,65.158.161.156,8.8.8.8.,53,dns-base,allow,outbound-isp,aged-out,253,0
+10/6/2022 21:22:38,end,trust-lan,trust-wc,192.168.50.4,,,,192.168.40.4,53,dns-base,allow,trust-trust,aged-out,383,0
+10/6/2022 21:22:38,end,trust-lan,untrust,192.168.81.164,,54.205.158.199,65.158.161.156,54.205.158.199,8802,unknown-udp,allow,outbound-isp,aged-out,9.3k,0
+10/6/2022 21:22:36,end,trust-wc,trust-lan,192.168.80.242,,,,192.168.50.4,53,dns-base,allow,trust-trust,aged-out,257,0
+10/6/2022 21:22:36,end,trust-lan,untrust,192.168.40.4,,34.238.41.119,65.158.161.156,34.238.41.119,8802,unknown-udp,allow,outbound-isp,aged-out,9.3k,0
+10/6/2022 21:22:36,end,trust-lan,untrust,192.168.80.244,,54.205.158.199,65.158.161.156,51.205.158.199,8802,unknown-udp,allow,outbound-isp,aged-out,9.3k,0
+10/6/2022 21:22:36,end,trust-lan,trust-wc,192.168.80.241,,,,192.168.40.4,53,dns-base,allow,trust-trust,aged-out,246,0
+10/6/2022 21:22:36,end,trust-lan,trust-wc,192.168.80.78,,,,192.168.40.4,8002,insufficient-data,allow,trust-trust,aged-out,81,0
+10/6/2022 21:22:36,end,trust-lan,untrust,192.168.50.4,,8.8.8.8,65.158.161.156,8.8.8.8,53,dns-base,allow,outbound-isp,aged-out,297,0
+10/6/2022 21:22:36,end,truist-wc,trust-lan,192.168.50.4,,,,192.168.50.4,53,dns-base,allow,trust-trust,aged-out,268,0
+10/6/2022 21:22:36,end,truist-wc,trust-lan,192.168.50.4,,,,192.168.50.6,8002,insufficient-data,allow,trust-trust,aged-out,81,0
